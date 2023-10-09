@@ -34,24 +34,18 @@ model.fit(X_train, y_train)
 previsor_svc = model.predict(X_test)
 
 # les sidebar qui sont dans le Home page  
-url="nmamadousow@gmail.com"
 with st.sidebar:
     st.info('Data analysis and visualisation')
     st.markdown(''' 
-    📧 [Openwather](<https://openweathermap.org/>)
-    
     📧 [Météo Sénégal](<https://www.meteoart.com/africa/senegal?page=day#date=2023-07-18>)
-    
-    💻 [Code source](<nmamadousow@gmail.com>)
                 ''')
-st.sidebar.info("Xgboost(Extrem Gradient Boosting) accuracy error")
+st.sidebar.info("SVM(Support Vector Machine) accuracy error")
 st.sidebar.write('👍Accuracy:',np.round(accuracy_score(y_test,previsor_svc),2)*100,'%')
 st.sidebar.write('👎Error:',100-np.round(accuracy_score(y_test,previsor_svc),2)*100,'%')
 st.sidebar.header("🌐Data legend")
 st.sidebar.success('Yes 🌨️🌨️🌨️')
 st.sidebar.success('No ⛅⛅⛅')
-st.sidebar.write('Made with 💗 by  ☎️ Contact',url)
-st.sidebar.info('GOMYCODE SN')
+st.sidebar.info('Made with 💗 by  MP')
 
 # Fonction input user
 def user_input(MinTemp,MaxTemp,Rainfall,Evaporation,Sunshine,WindGustSpeed,WindSpeed9am,WindSpeed3pm,Humidity9am,Humidity3pm,Pressure9am,Pressure3pm,Cloud9am,Cloud3pm,Temp9am,Temp3pm):
