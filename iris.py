@@ -7,8 +7,8 @@ st.write('''
 # Application pour la prévision des fleurs d'iris
 Cette application prédit la catégorie des fleurs.
 ''')
-st.image("iris.PNG",width=500)
-st.sidebar.header("les parametres d'entrée") 
+st.image("iris.PNG",width=1000)
+st.sidebar.header("Les paramètres d'entrée") 
 
 #===============================================================================================================
 
