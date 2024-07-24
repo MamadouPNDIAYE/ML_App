@@ -4,10 +4,10 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
 st.write('''
-# App pour la prevision des fleurs
-cette application predit la catégorie des fleurs.
+# Application pour la prévision des fleurs d'iris
+Cette application prédit la catégorie des fleurs.
 ''')
-st.image("plante.jfif",width=500)
+st.image("iris.PNG",width=500)
 st.sidebar.header("les parametres d'entrée") 
 
 #===============================================================================================================
@@ -26,7 +26,7 @@ def user_input():
 
 #===============================================================================================================
 
-st.subheader('On veut trouver la catégorie de cette fleur')
+st.subheader('On veut trouver la catégorie de cette fleur.')
 df = user_input()
 st.write(df)
 
