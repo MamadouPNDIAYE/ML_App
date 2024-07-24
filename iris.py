@@ -4,8 +4,11 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
 st.write('''
-# Application pour la prévision des fleurs d'iris
-Cette application prédit la catégorie des fleurs.
+# Application pour la prévision des fleurs d'iris.
+
+Nous avons construit, formé et déployé un modèle d‘apprentissage automatique permettant de distinguer les différentes espèces de fleurs d‘iris
+sur la base de quatre caractéristiques: longueur et largeur des sépales, longueur et largeur des pétales.
+
 ''')
 st.image("iris.PNG",width=800)
 st.sidebar.header("Les paramètres d'entrée") 
