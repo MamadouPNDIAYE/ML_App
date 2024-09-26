@@ -62,26 +62,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 #=========================================================================================================
 
 if selected =="Home":
-    
-    with st.sidebar:
-        if st.toggle("A propos MathsPratique", True):
-            
-    #if st.sidebar.toggle("A propos MathsPratique", True):
-            with st.expander(":blue[Bienvenue dans MathsPratique]", True) : 
-                colonne_1 , colonne_2 = st.columns([1,2])
-            with colonne_1 :
-                st.image("image/Logomp.jpg")
-            with colonne_2 : 
-                st.markdown("""
-                        Nous sommes Team MP, notre expertise réside dans les domaines de la science des données et de l'intelligence artificielle.
-                        Avec une approche technique et concise, nous nous engageons à fournir des solutions efficaces et précises dans nos projets.
-                        """)
-            
-                st.markdown("""
-            ## Contacts
-            * 📧  [MathsPratique](<mathspratique.mp@gmail.com>)
-            * 📧  +221 77 756 10 43  """)
-            
+          
     st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')    
        
     st.markdown("""
