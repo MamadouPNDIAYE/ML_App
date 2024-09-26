@@ -63,7 +63,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 if selected =="Home":
           
-    st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')    
+    #st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')    
        
     st.markdown("""
         ### Météorologie 🌨️⛅ 
