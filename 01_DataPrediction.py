@@ -170,7 +170,7 @@ if selected =="Prediction":
                     📧 [MétéoSénégal](<https://www.meteoart.com/africa/senegal?page=day#date=2023-07-18>)
             """)
         
-    st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')
+    #st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')
     
 # Passons aux algorithmes prédicteurs svm
     model_svm = SVC()
