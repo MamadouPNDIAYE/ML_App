@@ -79,7 +79,7 @@ if selected =="Home":
     #         * 📧  [MathsPratique](<mathspratique.mp@gmail.com>)
     #         * 📧  +221 77 756 10 43  """)
             
-    #st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')    
+    st.subheader("**:blue[Application de prévision métrologique]**")    
        
     st.markdown("""
         ### Météorologie 🌨️⛅ 
