@@ -108,7 +108,7 @@ if selected =="Home":
  
 if selected =="Data":
     
-    #st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow') 
+    st.subheader("**:blue[Application de prévision métrologique]**") 
     
     st.write("Le dataset de formation du modèle : ")
     st.write(df)
@@ -185,7 +185,7 @@ if selected =="Prediction":
                     📧 [MétéoSénégal](<https://www.meteoart.com/africa/senegal?page=day#date=2023-07-18>)
             """)
         
-    #st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow')
+    st.subheader("**:blue[Application de prévision métrologique]**")
     
 # Passons aux algorithmes prédicteurs svm
     model_svm = SVC()
