@@ -92,7 +92,7 @@ if selected =="Home":
  
 if selected =="Data":
     
-    st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow') 
+    #st.subheader("**:blue[Application de prévision métrologique]**",divider='rainbow') 
     
     st.write("Le dataset de formation du modèle : ")
     st.write(df)
